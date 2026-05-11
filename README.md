@@ -9,3 +9,6 @@
 
 3. [The Isolation Games: A Battle Against Anomalies](https://mahikajaguste.substack.com/p/the-isolation-games-a-battle-against): Where InnoDB’s locks and indexes collide to determine which anomalies survive, and which are crushed.
     - [Source Code](./mysql-acid/)
+
+4. [Sleeping on the Job (Legally): How Threads Block and Wake](https://mahikajaguste.substack.com/p/sleeping-on-the-job-legally-how-threads): An OS‑level tour of thread blocking mechanisms, syscalls, interrupts and event notification.
+    - [Source Code](./async-rust/)
