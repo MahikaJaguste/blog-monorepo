@@ -12,3 +12,6 @@
 
 4. [Sleeping on the Job (Legally): How Threads Block and Wake](https://mahikajaguste.substack.com/p/sleeping-on-the-job-legally-how-threads): An OS‑level tour of thread blocking mechanisms, syscalls, interrupts and event notification.
     - [Source Code](./async-rust/)
+
+5. [The Great Root Switcheroo: Container Internals](https://mahikajaguste.substack.com/p/the-great-root-switcheroo-container): Using chroot, mount namespaces and pivot_root to build a container‑like environment from first principles.
+    - [Source Code](./containers/)
