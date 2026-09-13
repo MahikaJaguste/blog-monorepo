@@ -15,3 +15,6 @@
 
 5. [The Great Root Switcheroo: Container Internals](https://mahikajaguste.substack.com/p/the-great-root-switcheroo-container): Using chroot, mount namespaces and pivot_root to build a container‑like environment from first principles.
     - [Source Code](./containers/)
+
+6. [Wake Me Up When It’s Ready: Async Tokio Runtime](https://mahikajaguste.substack.com/p/wake-me-up-when-its-ready-async-tokio): The hidden machinery behind Tokio’s IO driver, scheduler and cooperative task execution.
+    - [Source Code](./async-rust/tokio_fd_demo/)
