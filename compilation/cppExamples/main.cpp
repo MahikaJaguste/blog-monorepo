@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <sstream>
 #include "mylib.hpp"
+#include "mylibalso.hpp"
 
 int main() {
     unsigned char hash[32];
@@ -14,6 +15,8 @@ int main() {
         ss << std::hex << std::setfill('0') << std::setw(2) << static_cast<int>(hash[i]);
     }
     std::cout << "SHA256 Hash: " << ss.str() << "\n";
+
+    hello(); // Call the hello function from mylibalso.cpp
 
     return 0;
 }
