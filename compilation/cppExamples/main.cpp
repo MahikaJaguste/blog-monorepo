@@ -2,7 +2,6 @@
 #include <iomanip>
 #include <sstream>
 #include "mylib.hpp"
-#include "mylibalso.hpp"
 
 int main() {
     unsigned char hash[32];
