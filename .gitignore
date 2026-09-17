@@ -1,11 +1,3 @@
 .env
 .DS_Store
 target/
-
-crypto_objs/
-crypto1x_objs/
-
-.o
-.s
-*.a
-*.so

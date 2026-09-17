@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <openssl/evp.h>
 #include "mylib.hpp"
 
 int main() {
@@ -15,6 +16,12 @@ int main() {
            << static_cast<int>(hash[i]);
     }
     std::cout << "SHA256 Hash: " << ss.str() << "\n";
+
+    // Clean up the global context
+    EVP_MD_CTX* ctx = get_ctx();
+    if (ctx) {
+        EVP_MD_CTX_free(ctx);
+    }
 
     return 0;
 }
