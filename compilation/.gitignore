@@ -7,3 +7,4 @@ crypto1x_objs/
 *.so
 
 main
+bin/
