@@ -1,10 +1,7 @@
 crypto_objs/
 crypto1x_objs/
 
-*.o
-*.s
-*.a
-*.so
-
 main
 bin/
+lib/
+out/
